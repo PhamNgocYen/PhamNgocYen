@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sách</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="sach.css">
+    <link rel="stylesheet" type="text/css" href="danhsachsachhay.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <ul>            <div class="email">
+                <li style="color:rgb(128, 126, 126)">Email:</li>
+                <li style="color:rgb(128, 126, 126)">Hotline:
+                    <li style="color:red">19002121</li>
+                </li>
+            </div>
+            <div class="search">
+                <li>
+                    <div id="timkiem">
+                        <div class="khungtimkiem">
+                            <div class="input-box">
+                            <input type="text" placeholder="Tìm kiếm.." style="font-family:monospace ">
+                            <button type="submit">Go</button> 
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <button class="dangnhap">
+                        <a href="dangnhap.html">
+                        <img class="chuhe" src="https://cdn-icons-png.flaticon.com/512/1206/1206501.png?w=740">
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <a href="dangnhap.html">
+                    <button class="dangnhap">
+                        
+                            <span>Đăng nhập</span>
+                        
+                    </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="dangki.html">
+                        <button class="dangnhap">
+                            <span>Đăng kí</span>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="giohang.html">
+                        <button class="dangnhap">
+                            <img class="chuhe" src="https://cdn-icons-png.flaticon.com/512/1255/1255321.png?w=740">
+                        </button>
+                    </a>
+                </li>
+            </div>
+
+        </ul>
+    </header>
+
+
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="trangchu.html"><img class="phihanhgia" src="images/phihanhgia.jpg"></a></li>
+            <li><a href="sach.html">SÁCH</a></li>
+            <li><a href="truyentranh.html">TRUYỆN TRANH</a></li>
+            
+             <li><a href="dungcuhoctap.html">DỤNG CỤ HỌC TẬP</a></li>
+            <li><a href="dochoigiaitri.html">ĐỒ CHƠI GIẢI TRÍ</a></li>
+            <li><a href="lienhe.html">LIÊN HỆ</a></li>
+        </ul>
+    </div>
+
+
+    <div class="khungslide">
+		<div id="slideshow">
+            <div class="slide-wrapper">
+                    <div class="slide"><img src="https://comps.gograph.com/i-love-reading-blackboard-happy-kids-children-classroom_gg97761133.jpg"></div>
+                    <div class="slide"><img src="http://dongdadalat.edu.vn/uploads/news/2019_04/sach.jpg"></div>
+                    <div class="slide"><img src="https://znews-photo.zingcdn.me/w660/Uploaded/oplukaa/2018_01_02/Top_thach_thuc.jpg"></div>
+            </div>
+         </div>
+	</div>
+
+
+    <div class="tieudesach">
+        <hr width="70%" size="3" color="black"/>
+            <span class="sachla">SÁCH LÀ KHỞI ĐẦU CỦA NGUỒN TRI THỨC</span>
+        <hr width="70%" size="3" color="black"/>
+    </div>
+<!-- -------------danh sach sach hay ----------- -->   
+    <div id="danhsachsachhay">
+        <div class="headline">
+            <h3>DANH SÁCH SẢN PHẨM</h3>
+        </div>
+        <ul class="products">
+
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="images/alice.jpg.crdownload" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a onclick="Alice()" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Alice ở xứ sở diệu kì</a>
+                        <div class="product-price">29.000Đ</div>
+                    </div>
+                </div>
+            </li>
+
+           <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="images/toithayhoavangtrencoxanh.webp" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a onclick="toithay()" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Tôi thấy hoa trên cỏ xanh - Tác giả(Nguyễn Nhật Ánh)</a>
+                        <div class="product-price">120.000Đ</div>
+                    </div>
+                </div>
+            </li>
+
+           <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="images/toantuduy.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Trọn bộ Toán tư cho trẻ em</a>
+                        <div class="product-price">350.000Đ</div>
+                    </div>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="images/phattrientritue.webp" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Phát triển trí tuệ 1088</a>
+                        <div class="product-price">150.000Đ</div>
+                    </div>
+                </div>
+            </li>
+
+           <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="images/chame.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Trọn bộ 10 cuốn - Cha mẹ không người đầy tớ của tôi</a>
+                        <div class="product-price">200.000Đ</div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="images/tapto.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Tập tô màu cho bé</a>
+                        <div class="product-price">120.000Đ</div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="https://toplist.vn/images/800px/nhung-tam-long-cao-ca-edomondo-de-amicis-503836.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Những tấm lòng cao cả</a>
+                        <div class="product-price">12.000Đ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="https://i.ytimg.com/vi/1h5voq7-_TI/maxresdefault.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Mắt nhắm tịt</a>
+                        <div class="product-price">16.000Đ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2dzFXsgP0mYrxqGwEusU-kCIYgHuA8d0EQ&usqp=CAU" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Cho tôi xin một vé đi tuổi thơ</a>
+                        <div class="product-price">120.000Đ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="https://tapchichame.com/wp-content/uploads/2019/11/sach-tre-em-la-thien-tai-735x400.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Trẻ em là thiên tài</a>
+                        <div class="product-price">89.000Đ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="https://ictvietnam.mediacdn.vn/162041676108402688/2020/6/16/sach-gia-2-1592300240233482481072.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Kính vạn hoa</a>
+                        <div class="product-price">120.000Đ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <!-- hiển thị hình ảnh của sản phẩm -->
+                            <img src="https://newshop.vn/public/uploads/content/sach-danh-cho-tre-em-bach-khoa-tri-thuc-dau-tien-min.jpg" alt="">
+                        </a>
+                        <!-- /*xem chi tiết*/ -->
+                        <a href="" class="buy-now">Chi tiết</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">SÁCH HAY</a>
+                        <a href="" class="product-name">Bách Khoa tri thức</a>
+                        <div class="product-price">120.000Đ</div>
+                    </div>
+                </div>
+            </li>
+
+    
+        </ul>
+    </div>
+<!-- ---------kết thúc danh sách-------- -->
+
+
+    <div class="khungcuoi">
+        <div class="chungtoi">
+            <h1>VỀ CHÚNG TÔI</h1>
+            <p>Điênh thoại: 0368451940</p>
+            <p>Email: yenngan@23.it.vn</p> 
+            <p>Zalo: 039.882.3232</p>
+        </div>
+        <div class="mangxahoi">
+            <h1>CHÍNH SÁCH MUA HÀNG</h1>
+            <a href="">Hình thức đặt hàng</a>
+            <a href="">Hình thức thanh toán</a>
+            <a href="">Phương thức vận chuyển</a>
+            <a href="">Chính sách đổi trả</a>
+            <a href="">Hướng dẫn sử dụng</a>  
+        </div>
+        <div class="noibat">
+            <h1>THEO DÕI CHÚNG TÔI</h1>
+            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true">  Facebook</a></i>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true">  Instagram</a></i>
+            <a href="#"><i class="fa fa-link" aria-hidden="true">  Linkedin</a></i>
+        </div>
+        <div class="dangki">
+            <p>GỬI EMAIL CHO CHÚNG TÔI</p>
+            <div class="hoptimkiem">
+                <div class="hopnhap">
+                    <input type="text" placeholder="Nhap Email" style="font-family:monospace ">
+                    <button type="submit">Gửi</button>  
+                </div>
+            </div>
+            <pre>Hotline: 0368451940</pre>
+            <pre>Email: yenngan@23.it.vn</pre>  
+        </div>
+    </div>
+    
+    <div class="khungchot">
+        <div class="khungbanquyen" align="center">
+        <p>@Bản quyền thuộc về....|Thiết kế bởi yenngan23</p>
+        </div>
+    </div>
+
+    <!------------kết thúc footer-------------->
+
+
+<!-- sách 1-->
+<div id="content">
+    <div id="container" class="animate__backInDown">
+        <i class="fa-solid fa-circle-xmark" id="exit" onclick="exitla()"></i>
+        <form action="" class="sign-in" id="signin" align="center">
+           
+            <h2>Thông tin sản phẩm</h2>
+            <b>Alice xứ sở diệu kì</b>
+            <p>Alice ở xứ sở diệu kỳ là cuốn tiểu thuyết thiếu nhi nổi tiếng của nhà văn người Anh, Lewis Carroll. Ngay khi ra đời vào năm 1865, cuốn truyện đã được đông đảo bạn đọc cả trẻ em lẫn người lớn yêu mến. Bảy năm sau, Lewis Carroll cho ra mắt phần tiếp theo, Alice ở xứ sở trong gương, và ngay lập tức những nhân vật như cặp anh em Tweedledum, Hậu Đỏ, Hậu Trắng…của phần này cũng trở nên nổi tiếng không kém Thỏ Trắng, Sâu bướm, nữ Công tước hay Vua Cơ và Hậu Cơ ở phần trước
+                Nhờ sức hấp dẫn ấy mà trong hơn 130 năm qua, hàng loạt tác phẩm nghệ thuật từ văn học, hội họa, truyền hình, điện ảnh cho đến âm nhạc, game và cả opera đã ra đời dựa trên những cuộc phiêu lưu của cô bé Alice. Và cho đến nay, hai tác phẩm giàu sức tưởng tượng này vẫn là niềm cảm hứng mạnh mẽ cho những người yêu thích văn chương và sáng tạo.</p>
+            <b>Mời bạn đọc</b>    
+        </form>
+    </div>
+</div>
+
+
+<div id="content-1">
+    <div id="container-1" class="animate__backInDown">
+        <i class="fa-solid fa-circle-xmark" id="exit" onclick="exitla1()"></i>
+        <form action="" class="sign-in" id="signin" align="center">
+            <h2>Thông tin sản phẩm</h2>
+            <b>Tôi thấy hoa vàng trên cỏ xanh</b>
+            <p>
+                Truyện Tôi Thấy Hoa Vàng Trên Cỏ Xanh hiện đang là một bộ truyện teen đang được truy lùng nhiều nhất để đọc vì sau khi xem bộ phim đã được dựng nên người xem vẫn chưa thỏa mãn được nội dung mà tác giả Nguyễn Nhật Ánh truyền tải. <br>
+
+                Nội dung truyện nói vè tuổi thơ nghèo khó của hai anh em Thiều và Tường ở một làng quê Việt thân thuộc và nên thơ. Là nơi đã chứng kiến những rung động đầu đời của cả hai, tình cảm gia đình, tình anh em yêu thương chân thành, cũng như những đố kỵ, ghen tuông và những nỗi đau trong veo trong quá trình trưởng thành. <br>
+
+                Với những ký ức đã từng qua, chuyện về con cóc Cậu trời, chuyện ma, chuyện công chúa và hoàng tử, bên cạnh chuyện đói ăn, cháy nhà, lụt lội, tác giả muốn tưởng nhớ về tuổi thơ lắm ngọt ngào lẫn day dứt mà mỗi người đều đã từng trải qua khiến cho người đọc lại càng thấm đẫm tình yêu thương tuổi thơ của mình hơn. <br>
+
+            </p>
+        </form>
+    </div>
+</div>
+</body>
+<!-- sách 1-->
+<script>
+    function Alice(){
+        // document.getElementsById('content').style.display = 'flex';
+        // document.getElementsById('container').style.display = 'block';
+        document.getElementById('content').style.display = 'flex';
+        document.getElementById('container').style.display = 'block';
+    };
+    function exitla(){
+        document.getElementById('content').style.display = 'none';
+        // document.getElementById('container').style.display = 'none';
+    };
+</script>
+
+
+<script>
+    function toithay(){
+        // document.getElementsById('content').style.display = 'flex';
+        // document.getElementsById('container').style.display = 'block';
+        document.getElementById('content-1').style.display = 'flex';
+        document.getElementById('container-1').style.display = 'block';
+    };
+    function exitla1(){
+        document.getElementById('content-1').style.display = 'none';
+        // document.getElementById('container').style.display = 'none';
+    };
+</script>
+
+
+<!-- kt sach -->
+
+</html>

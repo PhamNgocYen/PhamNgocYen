@@ -1,0 +1,106 @@
+.map{
+	margin-top: 15px;
+}
+
+.left, .right{
+	margin-left: 130px;
+	margin-right: 130px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+
+}
+
+.left h2, .right h2{
+	font-size: 1.6rem;
+	color: #000;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.left p, .right p{
+	font-size: 1.3rem;
+	color: #797979;
+}
+
+.contact__self-list {
+	list-style: none;
+}
+
+.contact__self-item {
+
+}
+
+.contact__self-link {
+	color: #797979;
+	font-size: 1.3rem;
+	display: block;
+	padding: 0.5rem 0;
+	text-decoration: none;
+}
+
+.contact__self-item:first-child .contact__self-link{
+	font-weight: 500;
+}
+
+.contact__self-link:hover{
+	color: #797979;
+	text-decoration: none;
+}
+
+
+.right form input{
+	margin: 1rem 0;
+	padding: 0.8rem 1rem;
+	border-radius: 0.2rem;
+	outline: none;
+	font-size: 1.4rem;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+
+.right form textarea{
+	width: 100%;
+	padding: 0.6rem 1.4rem;
+	font-size: 1.4rem;
+	height: 10rem;
+	outline: none;
+	border-radius: .2rem;
+	margin-top: 1rem;
+}
+
+.mb-50{
+	margin-bottom: 3rem;
+}
+
+.right form button{
+	font-size: 1.4rem;
+	background: red;
+	padding: 0.6rem 1.4rem;
+	outline: none;
+	color: var(--white-color);
+	border-radius: 0.2rem;
+	border: none;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+
+.right form button:hover{
+	opacity: 0.8;
+}
+
+.right form button:hover{
+	opacity: 0.8;
+}
+
+/*input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+-moz-appearance: textfield;
+}
+*/

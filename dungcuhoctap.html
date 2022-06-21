@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="danhsachsachhay.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dụng cụ học tập</title>
+</head>
+<body>
+    <header class="header">
+        <ul>
+            <div class="email">
+                <li style="color:rgb(128, 126, 126)">Email:</li>
+                <li style="color:rgb(128, 126, 126)">Hotline:
+                    <li style="color:red">19002121</li>
+                </li>
+            </div>
+            <div class="search">
+                <li>
+                    <div id="timkiem">
+                        <div class="khungtimkiem">
+                            <div class="input-box">
+                            <input type="text" placeholder="Tìm kiếm.." style="font-family:monospace ">
+                            <button type="submit">Go</button> 
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <button class="dangnhap">
+                        <a href="dangnhap.html">
+                        <img class="chuhe" src="https://cdn-icons-png.flaticon.com/512/1206/1206501.png?w=740">
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <a href="dangnhap.html">
+                    <button class="dangnhap">
+                        
+                            <span>Đăng nhập</span>
+                        
+                    </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="dangki.html">
+                        <button class="dangnhap">
+                            <span>Đăng kí</span>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="giohang.html">
+                        <button class="dangnhap">
+                            <img class="chuhe" src="https://cdn-icons-png.flaticon.com/512/1255/1255321.png?w=740">
+                        </button>
+                    </a>
+                </li>
+            </div>
+
+        </ul>
+    </header>
+    <div class="menu">
+        <ul>
+            <li><img class="phihanhgia" src="images/phihanhgia.jpg"></li>
+            <li><a href="sach.html">SÁCH</li></a>
+            <li><a href="truyentranh.html">TRUYỆN TRANH</li></a>
+            <li><a href="dungcuhoctap.html">DỤNG CỤ HỌC TẬP</li></a>
+            <li><a href="dochoigiaitri.html">ĐỒ CHƠI GIẢI TRÍ</li></a>
+            <li><a href="lienhe.html">LIÊN HỆ</li></a>
+           
+        </ul>
+    </div>
+    <div class="container">
+        <svg viewBox="0 0 1000 200">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="40%" y="60%">Học, học nữa, học mãi!</text>
+          </symbol>
+      
+          <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+      </div>
+
+    <div>
+        <marquee behavior="alternate">
+            <img class="slide" src="./hoctap/but.jpg">
+            <img class="slide" src="./hoctap/butmauhopgo.jpg">
+            <img class="slide" src="./hoctap/cuctay.jpg">
+            <img class="slide" src="./hoctap/maunuocGouachedangtuyp.webp">
+            <img class="slide" src="./hoctap/thuoc.jpg">
+            <img class="slide" src="./hoctap/vở.jpg">    
+        </marquee>
+        <br>
+    </div>
+
+    <div class="danhsach">
+        <hr width="70%" size="3" color="black"/>
+        <span color="black">SẢN PHẨM NỔI BẬT</span>
+        <hr width="70%" size="3" color="black"/>
+    </div>
+
+
+<!-----------------danh sách dụng cụ học tập------------------------>
+<div id="danhsachdungcuhoctap">
+            <div class="headline">
+                <h3>DANH SÁCH DỤNG CỤ HỌC TẬP</h3>
+            </div>
+            <ul class="products">
+
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/but.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a onclick="but()" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Bút</a>
+                            <div class="product-price">15.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+               <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/butmauhopgo.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Bút màu hộp gỗ</a>
+                            <div class="product-price">500.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/butmauhopgo.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Bút màu hộp gỗ</a>
+                            <div class="product-price">500.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/maunuocGouachedangtuyp.webp
+                                " alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Màu nước Gouache dạng tuýp</a>
+                            <div class="product-price">350.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+               <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/thuoc.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Thước</a>
+                            <div class="product-price">25.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/vở.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Sổ tay</a>
+                            <div class="product-price">20.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/but.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a onclick="but()" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Bút</a>
+                            <div class="product-price">15.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+               <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/butmauhopgo.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Bút màu hộp gỗ</a>
+                            <div class="product-price">500.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/butmauhopgo.jpg" alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Bút màu hộp gỗ</a>
+                            <div class="product-price">500.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="" class="product-thumb">
+                                <!-- hiển thị hình ảnh của sản phẩm -->
+                                <img src="hoctap/maunuocGouachedangtuyp.webp
+                                " alt="">
+                            </a>
+                            <!-- /*xem chi tiết*/ -->
+                            <a href="" class="buy-now">Chi tiết</a>
+                        </div>
+                        <div class="product-info">
+                            <a href="" class="product-cat">DỤNG CỤ HỌC TẬP</a>
+                            <a href="" class="product-name">Màu nước Gouache dạng tuýp</a>
+                            <div class="product-price">350.000Đ</div>
+                        </div>
+                    </div>
+                </li>
+
+        
+            </ul>
+        </div>
+
+
+<!------------------kết thúc danh sách dụng cụ học tập--------------------->
+
+
+
+
+<!-------------footer------------->
+    <div class="khungcuoi">
+        <div class="chungtoi">
+            <h1>VỀ CHÚNG TÔI</h1>
+            <p>Điênh thoại: 0368451940</p>
+            <p>Email: yenngan@23.it.vn</p> 
+            <p>Zalo: 039.882.3232</p>
+        </div>
+        <div class="mangxahoi">
+            <h1>CHÍNH SÁCH MUA HÀNG</h1>
+            <a href="">Hình thức đặt hàng</a>
+            <a href="">Hình thức thanh toán</a>
+            <a href="">Phương thức vận chuyển</a>
+            <a href="">Chính sách đổi trả</a>
+            <a href="">Hướng dẫn sử dụng</a>  
+        </div>
+        <div class="noibat">
+            <h1>THEO DÕI CHÚNG TÔI</h1>
+            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true">  Facebook</a></i>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true">  Instagram</a></i>
+            <a href="#"><i class="fa fa-link" aria-hidden="true">  Linkedin</a></i>
+        </div>
+        <div class="dangki">
+            <p>GỬI EMAIL CHO CHÚNG TÔI</p>
+            <div class="hoptimkiem">
+                <div class="hopnhap">
+                    <input type="text" placeholder="Nhap Email" style="font-family:monospace ">
+                    <button type="submit">Gửi</button>  
+                </div>
+            </div>
+            <pre>Hotline: 0368451940</pre>
+            <pre>Email: yenngan@23.it.vn</pre>  
+        </div>
+    </div>
+
+    <div class="khungchot">
+        <div class="khungbanquyen" align="center">
+        <p>@Bản quyền thuộc về....|Thiết kế bởi yenngan23</p>
+        </div>
+    </div>
+    
+
+    <!------------kết thúc footer-------------->
+
+
+
+    <!-- dụng cụ học tập 3-->
+<div id="content-3">
+    <div id="container-3" class="animate__backInDown">
+        <i class="fa-solid fa-circle-xmark" id="exit" onclick="exitla()"></i>
+        <form action="" class="sign-in" id="signin" align="center">
+           
+            <h2>Thông tin sản phẩm</h2>
+            <b>Bút</b>
+            <p>
+                Bút viết có thể nói là một vật dụng chắc hẳn ai cũng biết và không thể thiếu đối với hầu hết tất cả chúng ta bởi việc ghi chép, trao đổi hoặc xác nhận thông tin luôn diễn ra trong cuộc sống bận rộn ngày nay. Do vậy, từng loại bút viết cho những ứng dụng và đối tượng người dùng khác nhau là những gì mà bạn nên hiểu thật rõ để có thể tối ưu hiệu quả của công cụ nhỏ nhưng đầy quyền lực này tại đây.
+            </p>
+        </form>
+    </div>
+</div>
+
+
+
+
+</body>
+
+<!-- dung cụ học tập 3-->
+<script>
+    function but(){
+        // document.getElementsById('content').style.display = 'flex';
+        // document.getElementsById('container').style.display = 'block';
+        document.getElementById('content-3').style.display = 'flex';
+        document.getElementById('container-3').style.display = 'block';
+    };
+    function exitla(){
+        document.getElementById('content-3').style.display = 'none';
+        // document.getElementById('container').style.display = 'none';
+    };
+</script>
+
+<!-- kt dụng cụ học tập -->
+
+</html>
+
+
+   
+    
