@@ -36,8 +36,8 @@ img{
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin:20px;
     }
-.menu li:hover{
-    color:deeppink;
+.menu a{
+    color:aliceblue;
 }
 p{
     color:darkgrey;
@@ -431,7 +431,7 @@ p{
         margin: 40px 0px;
     }
     
-    h3{
+    .headline h3{
         font-size: 25px;
         color: #111;
         padding: 10px 20px;
